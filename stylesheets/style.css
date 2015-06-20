@@ -1,0 +1,64 @@
+html {
+	background: url("../images/spacebground.jpg");
+	
+}
+
+body {
+	font-family: "Veranda", Helvetica, sans-serif;
+}
+
+h1 {
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 40px;
+	text-align: center;
+	margin: 0 50px;
+	padding: 15px;
+	border: solid black 5px;
+	border-style: double none double;
+	background: rgb(66, 58, 58);
+	color: rgb(106, 189, 232);
+	letter-spacing: 7px;
+	
+}
+
+/* nav behaviors */
+ul.nav {
+	text-align: center;
+	list-style: none;
+	background: rgb(0, 0, 0);
+	padding:15px 0px;
+	margin: 5px 200px 30px 200px;
+	border: 3px solid rgb(35, 99, 145);
+}
+
+ul.nav li {
+	display: inline;
+	padding: 10px 70px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+a:link {
+	color: rgb(231, 221, 245);
+}
+a:visited {
+	color: rgb(231, 221, 245);
+}
+a:hover {
+	color: rgb(240, 250, 178);
+}
+a:active {
+	color: rgb(231, 221, 245);
+	
+}
+
+/* images */
+.astropups {
+	width: 40%;
+	border: 5px solid black;
+	float: right;
+}
+
+.spock {
+
+}
