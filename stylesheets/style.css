@@ -37,6 +37,18 @@ ul.nav li {
 	font-weight: bold;
 }
 
+nav a {
+	text-decoration: none;
+}
+
+nav a.active {
+	border-bottom: 3px solid white;
+}
+
+nav a:hover {
+	border-bottom: 3px solid rgb(240, 250, 178);
+}
+
 a:link {
 	color: rgb(231, 221, 245);
 }
