@@ -76,7 +76,10 @@ ul.walkers {
 	display: block;
 	margin-top: 50px;
 	font-size: 20px;
-  
+}
+
+ul.walkers a {
+	color: rgb( 0, 0, 0);
 }
 
 .about {
