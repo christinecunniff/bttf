@@ -4,9 +4,10 @@ html {
 
 body {
 	font-family: "Veranda", Helvetica, sans-serif;
+	margin: 0;
 }
 
-h1 {
+h1.header {
 	font-family: Impact, Charcoal, sans-serif;
 	font-size: 40px;
 	text-align: center;
@@ -17,7 +18,8 @@ h1 {
 	background: rgb(66, 58, 58);
 	color: rgb(106, 189, 232);
 	letter-spacing: 7px;
-	
+	width: 100%;
+	margin: 0 auto;
 }
 
 .clearfix:after {
@@ -78,10 +80,12 @@ a:active {
 }
 
 .main-content {
-	height: 1300px;
+	min-height: 1000px;
 	width: 85%;
 	margin: 0 auto;
+	margin-bottom: 30px;
 	background: rgb(175, 171, 181);
+	padding: 7px;
 }
 
 ul.walkers {
