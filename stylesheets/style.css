@@ -22,6 +22,10 @@ h1.header {
 	margin: 0 auto;
 }
 
+#meet {
+	border-top: 2px solid black;
+}
+
 .clearfix:after {
      visibility: hidden;
      display: block;
