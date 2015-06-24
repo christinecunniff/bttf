@@ -40,6 +40,14 @@ h1.header {
 .clearfix { display: block; }
 /* close commented backslash hack */
 
+.intropage, .contact{
+	background: rgb(227, 239, 245);
+	width: 30%;
+  	padding: 30px;
+  	margin: 50px;
+}
+
+
 /* nav behaviors */
 ul.nav {
 	text-align: center;
@@ -131,7 +139,7 @@ ul.walkers a {
 
 /* images */
 .astropups {
-	width: 40%;
+	width: 50%;
 	border: 5px solid black;
 	float: right;
 }
