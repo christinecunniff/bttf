@@ -40,13 +40,6 @@ h1.header {
 .clearfix { display: block; }
 /* close commented backslash hack */
 
-.intropage, .contact{
-	background: rgb(227, 239, 245);
-	width: 30%;
-  	padding: 30px;
-  	margin: 50px;
-}
-
 
 /* nav behaviors */
 ul.nav {
@@ -100,6 +93,18 @@ a:active {
 	padding: 7px;
 }
 
+.intropage {
+	background: rgb(227, 239, 245);
+	width: 30%;
+  	padding: 50px;
+  	
+}
+
+.intropage a {
+	color:  rgb(106, 189, 232);
+}
+
+
 ul.walkers {
 	list-style: none;
 	float:left;
@@ -142,6 +147,9 @@ ul.walkers a {
 	width: 50%;
 	border: 5px solid black;
 	float: right;
+	display: block;
+  	margin-top: 40px;
+  	margin-right: 50px;
 }
 
 #meg {
