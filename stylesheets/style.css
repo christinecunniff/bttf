@@ -100,11 +100,13 @@ a:active {
 	background: rgb(227, 239, 245);
 	width: 30%;
   	padding: 50px;
-  	
+  	margin-top: 80px;
+  	margin-left: 30px;
 }
 
+
 .intropage a {
-	color:  rgb(106, 189, 232);
+	color: rgb(35, 96, 128);
 }
 
 
